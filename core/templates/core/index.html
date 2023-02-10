@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Index</title>
+	</head>
+
+	<body>
+		<style>
+			.dark-hr {
+				background-color: #000;
+				color: rgb(0, 0, 0);
+			}
+		</style>
+
+		<p><h3>Method:</h3> {{ request.method }}</p>
+		<hr class="dark-hr">
+		<p><h3>No. Requests:</h3> {{ requests_count }}</p>
+		<hr class="dark-hr">
+		<p><h3>Time Taken:</h3> {{ time_taken }} Seconds</p>
+	</body>
+</html>
